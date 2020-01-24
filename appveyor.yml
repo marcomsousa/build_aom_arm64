@@ -4,10 +4,10 @@ environment:
 
 
 matrix:
-  - arch: ARM64
-    aom_extra_options: "-DAOM_TARGET_CPU=arm64"
-  - arch: x64
-    aom_extra_options: "-DENABLE_NASM=ON"     
+- arch: ARM64
+  aom_extra_options: "-DAOM_TARGET_CPU=arm64"
+- arch: x64
+  aom_extra_options: "-DENABLE_NASM=ON"     
     
 image: Visual Studio 2019
 
